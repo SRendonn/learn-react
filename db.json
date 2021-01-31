@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "title": "Gym hype",
+      "authorId": "1",
+      "type": "public",
+      "description": "I want to tell you that I'm finally going back to the gym! Come with me.",
+      "timestamp": 1612137600,
+      "canceled": false,
+      "invites": [],
+      "comments": [
+        {
+          "userId": "2",
+          "comment": "I'll see you there!"
+        }
+      ]
+    },
+    {
+      "title": "Gym hype",
+      "authorId": "2",
+      "type": "private",
+      "description": "I'm hosting a Rocket League LAN",
+      "timestamp": 1612972800,
+      "canceled": false,
+      "invites": [
+        {
+          "userId": "1",
+          "answered": false,
+          "attending": false
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "SRendonn",
+      "name": "Sebastián Rendón",
+      "joindate": 1609286400
+    },
+    {
+      "id": "2",
+      "username": "Rendxn",
+      "name": "Santiago Rendón",
+      "joindate": 1609287000
+    },
+    {
+      "id": "3",
+      "username": "juanca548",
+      "name": "Joaquín Bedoya",
+      "joindate": 1609287500
+    }
+  ],
+  "friendships": [
+    {
+      "senderId": "1",
+      "receiverId": "2",
+      "confirmedDate": 1609287800
+    }
+  ]
+}
